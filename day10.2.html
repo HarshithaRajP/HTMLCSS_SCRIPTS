@@ -1,0 +1,227 @@
+[6:32 pm, 3/4/2024] .: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+        .fix {
+            color: bisque;
+            background-color: rgb(6, 71, 71);
+            position: fixed;
+            top: 50%;
+            right: 50px;
+            border-radius: 20px 0 0 20px;
+        }
+        .fix a{
+            color: bisque;
+        }
+        div{
+            font-size: 30px;
+            padding: 20px;
+        }
+        .abs{
+            color: red;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+        }
+        .abs:hover .text{
+            display: block;
+        }
+        .text{
+            display: none;
+            position: absolute;
+            top: 90%;
+            left: 50px;
+            background-color: white;
+            color: black;
+            padding: 70px;
+            border: 2px solid black;
+            border-radius: 100%;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1><center>style the image with appropriate text</center></h1>
+    <div class="images">
+        <img src="https://i.insider.com/6335b83fd0bea6001869b34c?width=1136&format=jpeg" alt="" width="1500px">
+        <div class="abs">
+            BILL GATES THE PIONEER
+            <div class="text">
+                SUCCESS IS A LOUSY TEACHER. IT SEDUCES SMART PEOPLE INTO THINKING THEY CAN'T LOSE
+            </div>
+        </div>
+    </div>
+    <div class="fix">
+        <a href="day8.html"><i class="fa fa-phone"></i></a>
+    </div>
+  </body>
+</html>
+[6:34 pm, 3/4/2024] .: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .a {
+        width: 100px;
+        height: 100px;
+        background-color: coral;
+        position: relative;
+        animation-name: a;
+        animation-duration: 10s;
+      }
+      .b {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(63, 53, 49);
+        position: relative;
+        animation-name: b;
+        animation-duration: 10s;
+      }
+      .c {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(62, 13, 109);
+        position: relative;
+        animation-name: c;
+        animation-duration: 10s;
+      }
+      .d {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(68, 23, 43);
+        position: relative;
+        animation-name: d;
+        animation-duration: 10s;
+      }
+      @keyframes a {
+        0% {
+          background-color: black;
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: rgb(148, 21, 21);
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: rgb(25, 21, 101);
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: rgb(98, 24, 59);
+          top: 200px;
+          left: 0px;
+        }
+        100% {
+          background-color: rgb(6, 76, 44);
+          top: 0px;
+          left: 0px;
+        }
+      }
+      @keyframes b {
+        0% {
+          background-color: rgba(7, 3, 122, 0.684);
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: rgb(195, 151, 40);
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: rgb(48, 5, 44);
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: rgb(182, 192, 205);
+          top: 200px;
+          left: 0px;
+        }
+        100% {
+          background-color: rgb(195, 41, 209);
+          top: 0px;
+          left: 0px;
+        }
+      }
+      @keyframes c {
+        0% {
+          background-color: rgb(150, 18, 18);
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: rgb(50, 28, 55);
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: rgb(226, 29, 29);
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: rgb(22, 145, 190);
+          top: 200px;
+          left: 0px;
+        }
+        100% {
+          background-color: rgb(205, 144, 174);
+          top: 0px;
+          left: 0px;
+        }
+      }
+      @keyframes d {
+        0% {
+          background-color: rgb(34, 138, 190);
+          top: 0px;
+          left: 0px;
+        }
+        25% {
+          background-color: rgb(7, 63, 27);
+          top: 0px;
+          left: 200px;
+        }
+        50% {
+          background-color: rgb(90, 111, 126);
+          top: 200px;
+          left: 200px;
+        }
+        75% {
+          background-color: rgba(192, 23, 102, 0.674);
+          top: 200px;
+          left: 0px;
+        }
+        100% {
+          background-color: rgb(89, 202, 41);
+          top: 0px;
+          left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <center><div class="a"></div></center>
+    <br /><br />
+    <center><div class="b"></div></center>
+    <br /><br />
+    <center><div class="c"></div></center>
+    <br /><br />
+    <center><div class="d"></div></center>
+    <br /><br />
+  </body>
+</html>

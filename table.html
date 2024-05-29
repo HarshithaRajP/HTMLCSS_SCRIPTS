@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Documenttable</title>
+
+    <style>
+      body {
+        background-color: aqua;
+      }
+      table {
+        width: 100%;
+      }
+      table,
+      th,
+      tr,
+      td {
+        border: 2px solid black;
+        text-align: center;
+      }
+      thead {
+        background-color: blue;
+      }
+      tbody {
+        background-color: chartreuse;
+      }
+      tr:nth-child(odd) td {
+        background-color: darkorange;
+      }
+      tr:nth-child(even) td {
+        background-color: dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <h1>LIST OF TOPICS</h1>
+      <thead>
+        <tr>
+          <th>topic name</th>
+          <th>sub topic</th>
+          <th>num of hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">HTML</td>
+          <td>html structure</td>
+          <td rowspan="3">3</td>
+        </tr>
+        <tr>
+          <td>tags</td>
+        </tr>
+        <tr>
+          <td>attributes</td>
+        </tr>
+        <tr>
+          <td rowspan="3">css</td>
+          <td>fonts</td>
+          <td rowspan="3">3</td>
+        </tr>
+        <tr>
+          <td>color</td>
+        </tr>
+        <tr>
+          <td>background</td>
+        </tr>
+        <tr>
+          <td rowspan="3">java script</td>
+          <td>loops</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>contents</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>what</td>
+          <td>6</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

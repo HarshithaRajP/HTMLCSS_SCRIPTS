@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dialpad</title>
+    <style>
+      .dialpad {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #2b2ee2;
+        padding: 20px;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap:5px ;
+        grid-column-gap:5px;
+      }
+      .venom {
+        background-color: rgb(235, 242, 245);
+        border: 0.5px solid black;
+        font-size: 30px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: crimson;
+        background-color: aqua;
+      }
+      h2{
+        color: black;
+        background-color: darkcyan;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>DIALPAD USING GRID</h1></center>
+    <br /><br />
+
+    <h2>
+      <p><center>phone dialpad</center></p>
+    </h2>
+    <br /><br />
+    <div class="dialpad">
+      <div class="venom">1</div>
+      <div class="venom">2</div>
+      <div class="venom">3</div>
+      <div class="venom">4</div>
+      <div class="venom">5</div>
+      <div class="venom">6</div>
+      <div class="venom">7</div>
+      <div class="venom">8</div>
+      <div class="venom">9</div>
+      <div class="venom">#</div>
+      <div class="venom">0</div>
+      <div class="venom">*</div>
+    </div>
+  </body>
+</html>
